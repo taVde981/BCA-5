@@ -35,7 +35,7 @@ namespace Number_Programming
                 Console.WriteLine("17. Ideal Cube");
                 Console.WriteLine("18. Circular Prime");
                 Console.WriteLine("19. Goldbach number");
-                Console.WriteLine("20. Meow Meow Number");
+                Console.WriteLine("20. Amicable Number");
 
 
                 ch = Convert.ToInt32(Console.ReadLine());
@@ -123,6 +123,14 @@ namespace Number_Programming
                         if (flag) Console.WriteLine("Number is Circular Prime");
                         else Console.WriteLine("Not Circular Prime");
                         break;
+                    case 19:
+                        programs.goldbachNum(num);
+                        break;
+                    case 20:
+                        flag = programs.amicableNum(num);
+                        if (flag) Console.WriteLine("Number is Amicable Number");
+                        else Console.WriteLine("Not Amicable Number");
+                        break;
                 }
             }
         }
@@ -130,6 +138,50 @@ namespace Number_Programming
 
     public class Programs
     {
+        public bool amicableNum(int num){
+            int sq = 0;
+            sq = num * num;
+            bool flag = true;
+
+            while(num != 0){
+                if(num%10 != sq%10){
+                flag = false;
+                return flag;
+                }
+
+                num /= 10;
+                sq /= 10;
+            }
+            return flag;
+
+        }
+
+        public void goldbachNum(int num){
+            int i, m = num, a = 0, b = 0;
+            Console.WriteLine("Prime pairs are: ");
+            for(i = 3; i <= num/2; i++){
+                a = i;
+                b = num - i;
+                if(isPrime(a) && isPrime(b))
+                Console.WriteLine(a + "+" + b + "=" + num);
+            }
+
+            bool isPrime(int n){
+                int i, count = 0;
+                for(i = 1; i <=n; i++){
+                    if(n % i == 0){
+                        count++;
+                    }
+                }
+                if(count == 2){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
+        }
+
         public bool circularPrime(int num){
             int d = 0, i = 0, count = 0, m = num, temp = num, p = 0;
             bool flag = true;
