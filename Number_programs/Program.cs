@@ -1,5 +1,4 @@
-﻿using System;
-using System.Diagnostics.Contracts;
+using System;
 
 namespace Number_Programming
 {
@@ -12,8 +11,8 @@ namespace Number_Programming
             bool flag;
             while (true)
             {
-                Console.WriteLine("Enter a number");
-                str = Console.ReadLine();
+                Console.WriteLine("\nEnter a number");
+                str = Console.ReadLine()!;
                 num = Convert.ToInt32(str);
                 Programs programs = new Programs();
                 Console.WriteLine("Enter Choice");
@@ -28,6 +27,16 @@ namespace Number_Programming
                 Console.WriteLine("9. Cyclic Number");
                 Console.WriteLine("10. Sunny Number");
                 Console.WriteLine("11. Show Information\n");
+                Console.WriteLine("12. Keith Number");
+                Console.WriteLine("13. Pell Number");
+                Console.WriteLine("14. Narcissistic number");
+                Console.WriteLine("15. Mersenne Prime");
+                Console.WriteLine("16. Six Fermat Number");
+                Console.WriteLine("17. Ideal Cube");
+                Console.WriteLine("18. Circular Prime");
+                Console.WriteLine("19. Goldbach number");
+                Console.WriteLine("20. Meow Meow Number");
+
 
                 ch = Convert.ToInt32(Console.ReadLine());
                 switch (ch)
@@ -85,6 +94,35 @@ namespace Number_Programming
                     case 11:
                         programs.showInformation();
                         break;
+                    case 12:
+                        flag = programs.keithNum(num);
+                        if (flag) Console.WriteLine("Number is Keith Number");
+                        else Console.WriteLine("Not Keith Number");
+                        break;
+                    case 13:
+                        programs.pellNum(num);
+                        break;
+                    case 14:
+                        flag = programs.narciNum(num);
+                        if (flag) Console.WriteLine("Number is Narcissistic Number");
+                        else Console.WriteLine("Not Narcissistic Number");
+                        break;
+                    case 15:
+                        programs.mersennePrime(num);
+                        break;
+                    case 16:
+                        programs.fermatNum(7);
+                        break;
+                    case 17:
+                        flag = programs.idealCube(num);
+                        if (flag) Console.WriteLine("Number is Ideal Cube");
+                        else Console.WriteLine("Not Ideal Cube");
+                        break;
+                    case 18:
+                        flag = programs.circularPrime(num);
+                        if (flag) Console.WriteLine("Number is Circular Prime");
+                        else Console.WriteLine("Not Circular Prime");
+                        break;
                 }
             }
         }
@@ -92,6 +130,164 @@ namespace Number_Programming
 
     public class Programs
     {
+        public bool circularPrime(int num){
+            int d = 0, i = 0, count = 0, m = num, temp = num, p = 0;
+            bool flag = true;
+            while(num != 0){
+                count++;
+                num /= 10;
+            }
+            Console.WriteLine(count);
+            num = m;
+            do{
+                flag = isPrime(num);
+                if(!flag)
+                break;
+                else
+                {
+                    d = num%10;
+                    num /= 10;
+                    p = d * (int)Math.Pow(10, count-1);
+                    num = num+p;
+                    Console.WriteLine(num);
+                    i++;
+                }
+            }while(i<=count-1);
+
+            bool isPrime(int n){
+                int j, count = 0;
+                for(j = 1; j <= n; j++){
+                    if((n%j) == 0)
+                    count++;
+                }
+                if(count == 2)
+                return true;
+                else
+                return false;
+            }
+
+            return flag;
+        }
+
+        public bool idealCube(int num){
+            double croot = 0;
+            croot = Math.Cbrt(num);
+            if((croot * croot * croot) == num)
+            return true;
+            else
+            return false;
+        }
+
+        public void fermatNum(int num){
+            long s = 0, k = 0;
+            while(k < num){
+                s = (long)Math.Pow(2, ((long)Math.Pow(2, k))) + 1;
+                k++;
+                Console.Write(s + " ");
+            }
+        }
+
+        public void mersennePrime(int num){
+            int i = 2, s = 0, k = 0;
+            while(k <= num){
+                if(prime(i)){
+                s = (int)Math.Pow(2, i) - 1;
+                k++;
+                Console.Write(s + " ");
+                }
+                i++;
+            }
+            bool prime(int n){
+                int j, count = 0;
+                for(j = 1; j <= n; j++){
+                    if((n%j) == 0)
+                    count++;
+                }
+                if(count == 2)
+                return true;
+                else
+                return false;
+            }
+        }
+
+        public bool narciNum(int num){
+            int m = num, d = 0, sum = 0, count = 0;
+            while(num != 0){
+                count++;
+                num /= 10;
+            }
+            num = m;
+            while(num != 0){
+                d = num%10;
+                sum += (int)Math.Pow(d, count);
+                num /= 10;
+            }
+            num = m;
+            if(sum == num)
+            return true;
+            else
+            return false;            
+        }
+        public void pellNum(int num){
+            int i, count = 0, p;
+            int[] operation = new int[3];
+            for(i = 0; i < num; i++){
+                if(count == 0){
+                    operation[0] = 0;
+                    Console.Write("0 ");
+                    count++;
+                }
+                else if(count == 1){
+                    operation[1] = 1;
+                    Console.Write("1 ");
+                    count++;
+                }
+                else{
+                    p = 2*operation[1] + operation[0];
+                    Console.Write(p + " ");
+                    operation[2] = p;
+                    operation[0] = operation[1];
+                    operation[1] = operation[2];
+                }
+            }
+        }
+
+        public bool keithNum(int num){
+            int sum = 0, d = 0, m = num, i, count = 0, dup = 0;
+            bool flag=false;
+            while(num != 0){
+                d = d % 10;
+                count++;
+                num = num/10;
+            }
+            dup = count;
+            int[] operation = new int[count];
+            num = m;
+            while(num != 0){
+                count--;
+                d = num%10;
+                operation[count] = d;
+                num = num/10;
+            }
+            count = dup;
+            num = m;
+            while(sum <= num){
+                for(i = 0; i < count; i++){
+                    sum += operation[i];
+                }
+                for(i = 0; i < count-1; i++){
+                    operation[i] = operation[i+1];
+                }
+                operation[count-1] = sum;
+                if(sum == num){
+                    flag = true;
+                    break;
+                }
+                sum = 0;
+            }
+            return flag;
+        }
+
         public bool spyNum(int num)
         {
             int d, sum=0, p =1;
@@ -234,7 +430,7 @@ namespace Number_Programming
         }
 
         public bool supfectNum(int num) { 
-            int m = num, d, sum1 = 0, sum2 = 0, twice = 2 * num;
+            int m = num, sum1 = 0, sum2 = 0, twice = 2 * num;
 
             for (int i = 1; i <= num; i++)
             {
@@ -261,13 +457,12 @@ namespace Number_Programming
 
         public bool duckNum(string str, int num)
         {
-            int d, flag = 0;
-            for (int i = 0; i < str.Length; i++)
-            {
+            int d, i = 0, flag = 0;
+            while(i < str.Length){
                 if (str[i] == '0')
                 {
+                    i++;
                     return false;
-                    break;
                 }
                 else
                 {
