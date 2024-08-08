@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+using Microsoft.VisualBasic;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
@@ -25,6 +25,18 @@ namespace Arrays
             Console.WriteLine("8. Move all negative numbers to beginning and positive to end");
             Console.WriteLine("9. Union and Intersection of two arrays");
             Console.WriteLine("10. Find a peak element which is not smaller than its neighbours");
+            Console.WriteLine("11. Update every array element with multiplication of previous and next numbers in array");
+            Console.WriteLine("12. Rearrange an array in such an order that– small, large, second smallest, second largest, etc.");
+            Console.WriteLine("13. Return the number of clumps (a series of 2 or more adjacent elements of the same value) in a given array");
+            Console.WriteLine("14. Check if an array can be split in such a way that the left side of the splitting is equal to the sum of the right side");
+            Console.WriteLine("15. Copy elements from first array into another array");
+            Console.WriteLine("16. Segregate even and odd elements in an array");
+            Console.WriteLine("17. Find the largest element of each and every contiguous subarray of size k from a given array");
+            Console.WriteLine("18. Rearrange positive and negative numbers alternatively in a given array.");
+            Console.WriteLine("19. PLace elements from one array into another without using any sort");
+            Console.WriteLine("20. Rearrange the given array so that arr[i] becomes arr[arr[i]]");
+
+
 
             ch = Convert.ToInt32(Console.ReadLine());
             switch (ch)
@@ -78,6 +90,57 @@ namespace Arrays
                     int n = programs.peakVal();
                     Console.WriteLine("\nIndex at which Peak value lies: " + n);
                     break;
+                case 11:
+                    programs.elements();
+                    programs.show();
+                    programs.prevNextMult();
+                    break;
+                case 12:
+                    programs.elements();
+                    programs.show();
+                    programs.rearrangeWeird();
+                    break;
+                case 13:
+                    programs.elements();
+                    programs.show();
+                    programs.countClumps();
+                    break;
+                case 14:
+                    /*programs.elements();
+                    programs.show();
+                    programs.splitSumCheck();*/
+                    break;
+                case 15:
+                    programs.elements();
+                    programs.show();
+                    programs.copyArray();
+                    break;
+                case 16:
+                    programs.elements();
+                    programs.show();
+                    programs.segregateEvenOdd();
+                    break;
+                case 17:
+                    programs.elements();
+                    programs.show();
+                    programs.subArrayMax();
+                    break;
+                case 18:
+                    programs.elements();
+                    programs.show();
+                    programs.alternatePosNeg();
+                    break;
+                case 19:
+                    programs.elements();
+                    programs.show();
+                    programs.noSortSorting();
+                    break;
+                case 20:
+                    programs.elements();
+                    programs.show();
+                    programs.rearrange();
+                    break;
+                
             }
         }
     }
@@ -335,6 +398,208 @@ namespace Arrays
             return 0;
         }
 
+        //____________________________________
+
+        public void prevNextMult(){
+            int i, n = arr.Length;
+            for(i = 0; i < n; i++){
+                if(i == 0){
+                    Console.Write((arr[i] * arr[i+1]) + " ");
+                }
+                else if(i == n-1){
+                    Console.Write((arr[i] * arr[i-1]) + " ");
+                }
+                else{
+                    Console.Write((arr[i-1] * arr[i+1]) + " ");
+                }
+            }
+        }
+
+        //____________________________________
+
+        public void rearrangeWeird(){
+            sort();
+            int i, length = arr.Length;
+            for(i = 0; i < length; i++){
+                if(i == length/2)
+                break;
+                Console.Write(arr[i] + " " + arr[(length-1)-i] + " ");
+            }
+        }
+
+        //____________________________________
+
+        public void countClumps(){
+        int i, count = 0, n = arr.Length;
+        bool inClump = false;
+
+        for(i = 0; i < n - 1; i++){
+            if(arr[i] == arr[i+1]){
+                if(!inClump){
+                    count++;
+                    inClump = true;
+                }
+            } else {
+                inClump = false;
+            }
+        }
+        Console.WriteLine("Clumps Found : " + count);
+    }
+
+        //____________________________________
+
+        /*
+
+        public void splitSumCheck(){
+            int i, sum = 0, n = string.Length;
+            for(i = 0; i < n; i++){
+                sum += arr[i];
+            }
+            double half = sum/2;
+            
+        }
+        */
+
+        //____________________________________
+
+        public void copyArray(){
+            int i, n = arr.Length;
+            int[] arr2 = new int[n];
+
+            for(i = 0; i < n; i++){
+                arr2[i] = arr[i];
+            }
+
+            Console.WriteLine("Elements successfully copied!");
+            for(i = 0; i < n; i++){
+                Console.Write(arr2[i] + " ");
+            }
+            Console.WriteLine();
+        }
+
+        //____________________________________
+        public void segregateEvenOdd(){
+            int i, j = 0, n = arr.Length;
+            int[] segregated = new int[n];
+            for(i = 0; i < n; i++){
+                if(arr[i] % 2 == 0){
+                segregated[j] = arr[i];
+                j++;
+                }
+            }
+            for(i = 0; i < n; i++){
+                if(arr[i] % 2 != 0){
+                segregated[j] = arr[i];
+                j++;
+                }
+            }
+            Console.WriteLine("Segregated array!");
+            for(i = 0; i < n; i++){
+                Console.Write(segregated[i] + " ");
+            }
+            
+        }
+        //____________________________________
+        public void subArrayMax(){
+            int i = 0, n = arr.Length, k = 0, j = 0, temp = 0, count = 1, dup = 0;
+            Console.WriteLine("Enter Length of sub-array");
+            k = Convert.ToInt32(Console.ReadLine())!;
+            dup = k;
+            while(k <= n && ((k - i) == dup)){
+                for(j = i; j < k-1; j++){
+                    if(arr[j+1] > arr[j]){
+                        temp = arr[j+1];
+                    }
+                }
+                Console.WriteLine("Max Element in " + count + " iteration: " + temp);
+                i++;
+                k++;
+                count++;
+            }
+        }
+        //____________________________________
+        public void alternatePosNeg(){
+            int i, j = 0, k = 1, n = arr.Length, pcount = 0, ncount = 0;
+            int[] alternated = new int[n];
+            for(i = 0; i < n; i++){
+                if(arr[i] >= 0){
+                    pcount++;
+                }
+                else
+                {
+                    ncount++;
+                }
+            }
+            //if(pcount > ncount){
+                for(i = 0; i < n; i++){
+                    if(arr[i] >= 0 && j<n){
+                        alternated[j] = arr[i];
+                        j += 2;
+                    }
+                    else{
+                        alternated[k] = arr[i];
+                        k += 2;
+                    }
+                }
+            //}
+            /*else{
+               for(i = 0; i < n; i++){
+                    if(arr[i] < 0 && j<n){
+                        alternated[j] = arr[i];
+                        j += 2;
+                    }
+                    else{
+                        alternated[k] = arr[i];
+                        k += 2;
+                    }
+                } 
+            }*/
+            
+
+            Console.WriteLine("Alternated array!");
+            for(i = 0; i < n; i++){
+                Console.Write(alternated[i] + " ");
+            }
+        }
+        //____________________________________
+        public void noSortSorting(){
+            int i, j = 0, n = arr.Length;
+            int[] interchanged = new int[n];
+            for(i = 0; i < n; i++){
+                j = arr[i];
+                interchanged[j] = arr[i];
+            }
+            Console.WriteLine("Interchanged Array");
+            for(i = 0; i < n; i++){
+                Console.Write(interchanged[i] + " ");
+            }
+        }
+
+        //____________________________________
+
+        public void rearrange()
+        {
+            int n = arr.Length;
+
+            // Step 1: Increase all values by (arr[arr[i]] % n) * n
+            for (int i = 0; i < n; i++)
+            {
+                arr[i] += (arr[arr[i]] % n) * n;
+            }
+
+            // Step 2: Divide all values by n to get the final result
+            for (int i = 0; i < n; i++)
+            {
+                arr[i] /= n;
+            }
+
+            for(int i = 0; i < n; i++){
+                Console.Write(arr[i] + " ");
+            }
+
+        }
+
+
         //************************************
 
         public void sort()
@@ -382,6 +647,7 @@ namespace Arrays
             {
                 Console.Write(arr[i] + " ");
             }
+            Console.WriteLine();
         }
     }
 }
