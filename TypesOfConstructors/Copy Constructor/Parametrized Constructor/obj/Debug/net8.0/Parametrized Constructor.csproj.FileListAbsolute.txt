@@ -1,0 +1,14 @@
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/Parametrized Constructor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/Parametrized Constructor.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/Parametrized Constructor.AssemblyInfo.cs
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/Parametrized Constructor.csproj.CoreCompileInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/bin/Debug/net8.0/Parametrized Constructor
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/bin/Debug/net8.0/Parametrized Constructor.deps.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/bin/Debug/net8.0/Parametrized Constructor.runtimeconfig.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/bin/Debug/net8.0/Parametrized Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/bin/Debug/net8.0/Parametrized Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/Parametrized Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/refint/Parametrized Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/Parametrized Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/Parametrized Constructor.genruntimeconfig.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Parametrized Constructor/obj/Debug/net8.0/ref/Parametrized Constructor.dll
