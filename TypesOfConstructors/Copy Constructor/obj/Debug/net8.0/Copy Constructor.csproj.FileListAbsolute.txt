@@ -1,0 +1,14 @@
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/Copy Constructor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/Copy Constructor.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/Copy Constructor.AssemblyInfo.cs
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/Copy Constructor.csproj.CoreCompileInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/bin/Debug/net8.0/Copy Constructor
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/bin/Debug/net8.0/Copy Constructor.deps.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/bin/Debug/net8.0/Copy Constructor.runtimeconfig.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/bin/Debug/net8.0/Copy Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/bin/Debug/net8.0/Copy Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/Copy Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/refint/Copy Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/Copy Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/Copy Constructor.genruntimeconfig.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Copy Constructor/obj/Debug/net8.0/ref/Copy Constructor.dll
