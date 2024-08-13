@@ -1,0 +1,14 @@
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/Private Constructor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/Private Constructor.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/Private Constructor.AssemblyInfo.cs
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/Private Constructor.csproj.CoreCompileInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/bin/Debug/net8.0/Private Constructor
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/bin/Debug/net8.0/Private Constructor.deps.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/bin/Debug/net8.0/Private Constructor.runtimeconfig.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/bin/Debug/net8.0/Private Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/bin/Debug/net8.0/Private Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/Private Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/refint/Private Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/Private Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/Private Constructor.genruntimeconfig.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Private Constructor/obj/Debug/net8.0/ref/Private Constructor.dll
