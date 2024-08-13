@@ -1,0 +1,4 @@
+/Users/utkarshrana/Documents/TypesOfConstructors/Static Constructor/obj/Debug/net8.0/Static Constructor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/TypesOfConstructors/Static Constructor/obj/Debug/net8.0/Static Constructor.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Static Constructor/obj/Debug/net8.0/Static Constructor.AssemblyInfo.cs
+/Users/utkarshrana/Documents/TypesOfConstructors/Static Constructor/obj/Debug/net8.0/Static Constructor.csproj.CoreCompileInputs.cache
