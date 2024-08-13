@@ -1,0 +1,14 @@
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/Default Constructor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/Default Constructor.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/Default Constructor.AssemblyInfo.cs
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/Default Constructor.csproj.CoreCompileInputs.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/bin/Debug/net8.0/Default Constructor
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/bin/Debug/net8.0/Default Constructor.deps.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/bin/Debug/net8.0/Default Constructor.runtimeconfig.json
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/bin/Debug/net8.0/Default Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/bin/Debug/net8.0/Default Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/Default Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/refint/Default Constructor.dll
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/Default Constructor.pdb
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/Default Constructor.genruntimeconfig.cache
+/Users/utkarshrana/Documents/TypesOfConstructors/Default Constructor/obj/Debug/net8.0/ref/Default Constructor.dll
