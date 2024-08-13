@@ -1,0 +1,22 @@
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/Console App
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/Console App.deps.json
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/Console App.runtimeconfig.json
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/Console App.dll
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/Console App.pdb
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/ClassLibrary.dll
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/NumberProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/StringProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/ClassLibrary.pdb
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/NumberProgramsLibrary.pdb
+/Users/utkarshrana/Documents/Using Library/Console App/bin/Debug/net8.0/StringProgramsLibrary.pdb
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.csproj.AssemblyReference.cache
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.AssemblyInfo.cs
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.csproj.CoreCompileInputs.cache
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console .E477417D.Up2Date
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.dll
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/refint/Console App.dll
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.pdb
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/Console App.genruntimeconfig.cache
+/Users/utkarshrana/Documents/Using Library/Console App/obj/Debug/net8.0/ref/Console App.dll

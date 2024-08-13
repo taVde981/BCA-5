@@ -1,0 +1,11 @@
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/bin/Debug/net8.0/NumberProgramsLibrary.deps.json
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/bin/Debug/net8.0/NumberProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/bin/Debug/net8.0/NumberProgramsLibrary.pdb
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/NumberProgramsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/NumberProgramsLibrary.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/NumberProgramsLibrary.AssemblyInfo.cs
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/NumberProgramsLibrary.csproj.CoreCompileInputs.cache
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/NumberProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/refint/NumberProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/NumberProgramsLibrary.pdb
+/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/obj/Debug/net8.0/ref/NumberProgramsLibrary.dll

@@ -1,0 +1,11 @@
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/bin/Debug/net8.0/StringProgramsLibrary.deps.json
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/bin/Debug/net8.0/StringProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/bin/Debug/net8.0/StringProgramsLibrary.pdb
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/StringProgramsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/StringProgramsLibrary.AssemblyInfoInputs.cache
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/StringProgramsLibrary.AssemblyInfo.cs
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/StringProgramsLibrary.csproj.CoreCompileInputs.cache
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/StringProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/refint/StringProgramsLibrary.dll
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/StringProgramsLibrary.pdb
+/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/obj/Debug/net8.0/ref/StringProgramsLibrary.dll

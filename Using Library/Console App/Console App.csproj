@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary">
+        <HintPath>/Users/utkarshrana/Documents/Using Library/ClassLibrary/bin/Debug/net8.0/ClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="NumberProgramsLibrary">
+        <HintPath>/Users/utkarshrana/Documents/Using Library/NumberProgramsLibrary/bin/Debug/net8.0/NumberProgramsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="StringProgramsLibrary">
+        <HintPath>/Users/utkarshrana/Documents/Using Library/StringProgramsLibrary/bin/Debug/net8.0/StringProgramsLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Console_App</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
